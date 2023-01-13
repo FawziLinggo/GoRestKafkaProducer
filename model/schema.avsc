@@ -1,0 +1,35 @@
+{
+  "namespace": "confluent.io.examples.serialization.avro",
+  "name": "dataschema",
+  "type": "record",
+  "fields": [
+    {
+      "name": "tanggal",
+      "type": "string"
+    },
+    {
+      "name": "nama_vendor",
+      "type": "string"
+    },
+    {
+      "name": "kode_barang",
+      "type": "string"
+    },
+    {
+      "name": "cara_bayar",
+      "type": "string"
+    },
+    {
+      "name": "qty",
+      "type": "int"
+    },
+    {
+      "name": "harga",
+      "type": "long"
+    },
+    {
+      "name": "jumlah",
+      "type": "long"
+    }
+  ]
+}
